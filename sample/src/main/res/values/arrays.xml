@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="sample_icon">
+        <item>@drawable/ic_material_progressbar</item>
+        <item>@drawable/ic_material_dialog</item>
+    </integer-array>
+
+    <string-array name="sample_title">
+        <item>@string/sample_material_progressbar</item>
+        <item>@string/sample_material_dialogs</item>
+    </string-array>
+
+    <!-- Material Dialog -->
+    <string-array name="preference_values">
+        <item>Twitter</item>
+        <item>Google</item>
+        <item>Instagram</item>
+        <item>Facebook</item>
+    </string-array>
+
+    <array name="custom_colors">
+        <item>#F44336</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#673AB7</item>
+        <item>#3F51B5</item>
+        <item>#2196F3</item>
+    </array>
+
+</resources>
