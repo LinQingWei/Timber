@@ -1,4 +1,4 @@
-package cn.way.sample;
+package cn.way.sample.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

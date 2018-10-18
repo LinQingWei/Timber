@@ -3,11 +3,13 @@
     <integer-array name="sample_icon">
         <item>@drawable/ic_material_progressbar</item>
         <item>@drawable/ic_material_dialog</item>
+        <item>@drawable/ic_account_circle</item>
     </integer-array>
 
     <string-array name="sample_title">
         <item>@string/sample_material_progressbar</item>
         <item>@string/sample_material_dialogs</item>
+        <item>@string/sample_material_icon</item>
     </string-array>
 
     <!-- Material Dialog -->

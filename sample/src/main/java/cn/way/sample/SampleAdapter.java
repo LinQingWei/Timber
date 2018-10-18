@@ -18,7 +18,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import cn.way.material_icon.MaterialIconView;
 import cn.way.sample.material_dialog.MaterialDialogActivity;
+import cn.way.sample.material_icon.MaterialIconActivity;
 import cn.way.sample.material_progressbar.MaterialProgressbarActivity;
 import cn.way.sample.util.AppUtils;
 
@@ -175,6 +177,7 @@ public class SampleAdapter extends BaseAdapter {
     private class SampleOnItemClickListener implements AdapterView.OnItemClickListener {
         private static final int INTENT_START_MATERIAL_PROGRESSBAR = 0x00;
         private static final int INTENT_START_MATERIAL_DIALOG = 0x01;
+        private static final int INTENT_START_MATERIAL_ICON = 0x02;
 
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -184,6 +187,10 @@ public class SampleAdapter extends BaseAdapter {
                     break;
                 case INTENT_START_MATERIAL_DIALOG:
                     AppUtils.launch(mContext, MaterialDialogActivity.class);
+                    break;
+                case INTENT_START_MATERIAL_ICON:
+                    AppUtils.launch(mContext, MaterialIconActivity.class);
+                    break;
                 default:
                     break;
             }

@@ -8,7 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ProgressBar;
 
-import cn.way.sample.BaseActivity;
+import cn.way.sample.base.BaseActivity;
 import cn.way.sample.R;
 import cn.way.sample.util.AppUtils;
 

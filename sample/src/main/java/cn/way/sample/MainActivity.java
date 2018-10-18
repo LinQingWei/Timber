@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.widget.ListView;
 
+import cn.way.sample.base.BaseActivity;
+
 public class MainActivity extends BaseActivity {
     private ListView mLvSample;
     private SampleAdapter mSampleAdapter;

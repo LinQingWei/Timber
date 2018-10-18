@@ -1,1 +1,1 @@
-include ':app', ':material-dialogs', ':material-progressbar', ':sample', ':material-dialogs-common'
+include ':app', ':material-dialogs', ':material-progressbar', ':sample', ':material-dialogs-common', ':material_icon'

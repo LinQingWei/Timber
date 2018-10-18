@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.ProgressBar;
 
-import cn.way.sample.BaseActivity;
+import cn.way.sample.base.BaseActivity;
 import cn.way.sample.R;
 
 /**

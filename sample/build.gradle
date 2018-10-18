@@ -38,4 +38,5 @@ dependencies {
     implementation project(':material-progressbar')
     implementation project(':material-dialogs')
     implementation project(':material-dialogs-common')
+    implementation project(':material_icon')
 }

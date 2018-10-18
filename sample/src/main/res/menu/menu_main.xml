@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:title="a"
+        app:materialIcon="content_copy"
+        app:materialIconColor="#FE0000"
+        app:showAsAction="always" />
+    <item
+        android:title="a"
+        app:materialIcon="select_all"
+        app:materialIconColor="#FF9C00"
+        app:showAsAction="always" />
+    <item
+        android:title="a"
+        app:materialIcon="content_paste"
+        app:materialIconColor="#2255ff"
+        app:showAsAction="always" />
+
+</menu>

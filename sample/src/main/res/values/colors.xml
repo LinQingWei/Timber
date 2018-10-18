@@ -13,4 +13,8 @@
     <color name="primaryDark">#6A1B9A</color>
     <color name="accent">#DD2C00</color>
     <color name="material_red_400">#EF5350</color>
+
+    <!-- Material Icon -->
+    <color name="somecolor">#00a</color>
+    <color name="resourcecolor">#f00</color>
 </resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:title="a"
+        app:materialIcon="numeric_0_box"
+        app:materialIconColor="#33000000"
+        app:showAsAction="always" />
+    <item
+        android:title="a"
+        app:materialIcon="numeric_1_box"
+        app:showAsAction="always" />
+    <item
+        android:title="a"
+        app:materialIcon="numeric_2_box"
+        app:showAsAction="always" />
+    <item
+        android:title="a"
+        app:materialIcon="numeric_3_box"
+        app:showAsAction="always" />
+
+    <item
+        android:title="But wait..."
+        app:materialIcon="dots_vertical"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:title="This"
+                app:materialIcon="youtube"
+                app:showAsAction="always" />
+            <item
+                android:title="material"
+                app:materialIcon="apple"
+                app:showAsAction="always" />
+            <item
+                android:title="menu"
+                app:materialIcon="microsoft"
+                app:showAsAction="always" />
+            <item
+                android:title="thing"
+                app:materialIcon="android"
+                app:showAsAction="always" />
+            <item
+                android:title="is"
+                app:materialIcon="apple_ios"
+                app:showAsAction="always" />
+            <item
+                android:title="pretty"
+                app:materialIcon="amazon"
+                app:showAsAction="always" />
+            <item
+                android:title="amazing"
+                app:materialIcon="facebook"
+                app:showAsAction="always" />
+            <item
+                android:title="!"
+                app:materialIcon="github_circle"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+
+</menu>

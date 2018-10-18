@@ -61,6 +61,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".material_dialog.MaterialDialogActivity" />
         </activity>
+
+        <activity
+            android:name=".material_icon.MaterialIconActivity"
+            android:label="@string/sample_material_icon"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MaterialIconTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
